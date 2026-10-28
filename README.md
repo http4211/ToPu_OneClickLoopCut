@@ -68,7 +68,7 @@ ToPu_Resample、ToPu_ViewSmooth、ToPu_CircleMaker など、ほかの ToPu ア�
 | Ctrl(押している間) | 50%スナップ |
 | Alt(押している間) | 分割スナップ(初期値10分割＝10%刻み) |
 | Alt＋ホイール | スナップの分割数を変更 |
-| Ctrl＋ホイール | オフセット時のループ間隔を変更 |
+| Shift＋ホイール | オフセット時のループ間隔を変更 |
 | Shift(押している間) | 直線カット |
 | Shift＋R 長押し(Alt / Ctrl 併用可) | 直線カットの角度をマウスで決める |
 | 数字キー | 直線カットの角度を入力(2秒でリセット) |
@@ -90,7 +90,7 @@ ToPu_Resample、ToPu_ViewSmooth、ToPu_CircleMaker など、ほかの ToPu ア�
 | F | 反転 | 均等で基準にする側を反対にします |
 | M | ミラー | 辺の中心で反転した位置にもカットを追加します |
 | P | 垂直 | ループのつながりを保ったまま、辺に垂直な平面上にカットを置きます |
-| O | オフセット | 複数カットをカーソル中心に並べます(間隔は Ctrl＋ホイール) |
+| O | オフセット | 複数カットをカーソル中心に並べます(間隔は Shift＋ホイール) |
 | V | 頂点挿入 | ループを作らず、ホバー中の辺に頂点だけを追加します |
 | I | 常時スナップ | Alt を押さなくても分割スナップを使います |
 | D | フロー | 新しいループを周囲の曲面に沿うように膨らませます(ループカットのみ) |
@@ -196,7 +196,7 @@ Start the tool in Mesh Edit Mode with **Ctrl+Shift+R**, **Right Click > ToPu Too
 | Wheel / + − | Number of cuts |
 | Ctrl (hold) | Snap to 50% |
 | Alt (hold) / Alt+Wheel | Stepped snap / change the number of steps |
-| Ctrl+Wheel | Loop spacing for Loop Offset |
+| Shift+Wheel | Loop spacing for Loop Offset |
 | Shift (hold) | Straight cut |
 | Shift+R (hold) / number keys | Pick / type the straight cut angle |
 | ↑ / ↓ | Smooth strength |
